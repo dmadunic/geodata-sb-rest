@@ -32,7 +32,7 @@ services:
       - DB_USER=geodataRestSb
       - DB_PWD=
       - DB_SCHEMA=public
-      - GRSB_LIQUIBASE_ENABLED=true
+      - GR_LIQUIBASE_ENABLED=true
       - LIQUIBASE_CONTEXTS=dev
       - MAIL_HOST=localhost
       - MAIL_USER=someUser
