@@ -50,7 +50,7 @@ CREATE SCHEMA IF NOT EXISTS AUTHORIZATION "geodata";
 ```
 ### Running geodata-rest-sb application
 
-For **geodata-rest-sb** application to be run you need to specify one runtime env variable **GRSB_LIQUIBASE_ENABLED** with value set to `true` or `false`.
+For **geodata-rest-sb** application to be run you need to specify one runtime env variable **GR_LIQUIBASE_ENABLED** with value set to `true` or `false`.
 This variable controls if **geodata-rest-sb** liquibase is enabled or not. 
 
 **It should not be enabled if you have already created all database objects and populated them (for example while running [geodataApp][]).**
